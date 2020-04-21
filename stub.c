@@ -1,3 +1,2 @@
 #include <pspkernel.h>
 PSP_MODULE_INFO("ASM", PSP_MODULE_USER, 1, 0);
-PSP_HEAP_SIZE_KB(-1024);
