@@ -1,10 +1,10 @@
-TARGET = MElibTest
+TARGET = ASMTest
 OBJS = test.o
 
 INCDIR =
-CFLAGS = -G0 -Wall -O2
-CXXFLAGS = $(CFLAGS) -fno-exceptions -fno-rtti
-ASFLAGS = $(CFLAGS)
+CFLAGS = -G0 -Wall -O2 -gdwarf-2
+CXXFLAGS = $(CFLAGS) -fno-exceptions -fno-rtti -gdwarf-2
+ASFLAGS = $(CFLAGS) -gdwarf-2
 
 LIBDIR =
 LDFLAGS = 
