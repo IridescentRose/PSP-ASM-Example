@@ -1,5 +1,5 @@
 TARGET = ASMTest
-OBJS = test.o
+OBJS = test.o stub.o
 
 INCDIR =
 CFLAGS = -G0 -Wall -O2 -gdwarf-2
