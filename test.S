@@ -13,6 +13,3 @@ main:
 
 loop:
 	j loop
-
-	li v0, 10
-	syscall
